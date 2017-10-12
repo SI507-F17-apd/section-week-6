@@ -1,4 +1,4 @@
-# Debug this code
+# Understand, debug and fix this code
 
 There are 4 bugs related:
 1. syntax / definition
@@ -14,7 +14,7 @@ As you read the code and try to find bugs, add new comments based on what you un
 1. Try to understand how it all comes together at the end.
 1. As you notice something different from how you usually write code, think about how would you have written it. (The next project is about collaboration and you will need to read, understand and adapt to each others' style of writing code.)
 
-# Extend this code
+# Extend this code (if you have time)
 
 - Make it an interactive experience
 - Ask which section does the user want to read

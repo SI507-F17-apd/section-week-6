@@ -190,9 +190,9 @@ def load_articles_from_headlines_only(section_soup):
         story_list.append(story_dict)
 
         if DEBUG:
-            print(story_dict['title'])
+            print('Title:', story_dict['title'])
             if story_dict.get('byline'):
-                print(story_dict['byline'])
+                print('Byline:', story_dict['byline'])
             print("Has URL:", story_dict['url'] and True or False)
             print("# of related articles:", len(story_dict['related_articles']))
             print()
