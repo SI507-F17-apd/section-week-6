@@ -8,6 +8,11 @@ import json
 from datetime import datetime
 from bs4 import BeautifulSoup as Soup
 
+def instructions():
+    print("You should look through all the caching code.")
+    print("You should then edit it as described in the instructions.")
+
+
 # -----------------------------------------------------------------------------
 # Constants
 # -----------------------------------------------------------------------------
@@ -236,6 +241,7 @@ def extract_data_from_related_article(article_soup):
 
 # 3. It all comes together here / or everything starts here
 # ========================================================= #
+if DEBUG: instructions()
 
 if DEBUG: print('The Front Page'.upper())
 front_page_soup = todays_soup.find('div', {'class': 'aColumn'})
